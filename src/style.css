@@ -1,0 +1,31 @@
+body {
+  font-family: "MedievalSharp", cursive;
+  text-align: center;
+  /* background-image: url("");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; */
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-column-gap: 1em;
+}
+
+.dice-size {
+  width: 40%;
+}
+
+.aboutImage figure {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  width: 30vw;
+  margin: 0;
+}
+
+.aboutImage figure * {
+  width: 100%;
+}
