@@ -1,34 +1,37 @@
 console.log("App is running");
 
-const randomRollOnClick = (event) => {
-  event.preventDefault();
-  console.log("form Roll");
+// Random dice rolls on click
 
-  // Random dice rolls on click
-  $("#dice-roller-d4").on("click", () => {
-    console.log(Math.round(Math.random() * 4) + 1);
-  });
-  $("#dice-roller-d6").on("click", () => {
-    console.log(Math.round(Math.random() * 6) + 1);
-  });
-  $("#dice-roller-d8").on("click", () => {
-    console.log(Math.round(Math.random() * 8) + 1);
-  });
-  $("#dice-roller-d10").on("click", () => {
-    console.log(Math.round(Math.random() * 10) + 1);
-  });
-  $("#dice-roller-d12").on("click", () => {
-    console.log(Math.round(Math.random() * 12) + 1);
-  });
-  $("#dice-roller-d20").on("click", () => {
-    console.log(Math.round(Math.random() * 20) + 1);
-  });
-};
+// Look at this d4 die, when clicked, do something
+$("#dice-roller-d4").on("click", () => {
+  // Do a Math.random, store as a variable
+  let result = Math.floor(Math.random() * 4) + 1;
+  // Look for a div labeled: "d4-generated-num" and change the HTML
+  // to be the resulting integer
+  document.getElementById("d4-generated-number").innerHTML = result;
+});
 
-$("#dice-roller-d4").on("Roll", randomRollOnClick);
-$("#dice-roller-d4").click();
-$("#dice-roller-d6").click();
-$("#dice-roller-d8").click();
-$("#dice-roller-d10").click();
-$("#dice-roller-d12").click();
-$("#dice-roller-d20").click();
+$("#dice-roller-d6").on("click", () => {
+  let result = Math.floor(Math.random() * 6) + 1;
+  document.getElementById("d6-generated-number").innerHTML = result;
+});
+
+$("#dice-roller-d8").on("click", () => {
+  let result = Math.floor(Math.random() * 8) + 1;
+  document.getElementById("d8-generated-number").innerHTML = result;
+});
+
+$("#dice-roller-d10").on("click", () => {
+  let result = Math.floor(Math.random() * 10) + 1;
+  document.getElementById("d10-generated-number").innerHTML = result;
+});
+
+$("#dice-roller-d12").on("click", () => {
+  let result = Math.floor(Math.random() * 12) + 1;
+  document.getElementById("d12-generated-number").innerHTML = result;
+});
+
+$("#dice-roller-d20").on("click", () => {
+  let result = Math.floor(Math.random() * 20) + 1;
+  document.getElementById("d20-generated-number").innerHTML = result;
+});
