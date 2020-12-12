@@ -64,6 +64,8 @@ button {
   border: 2px solid black;
   border-radius: 8px;
   transition-duration: 0.4s;
+  width: 120px;
+  height: 60px;
 }
 
 .qty .count {
@@ -132,11 +134,13 @@ input:disabled {
   font-size: 100px;
   color: #000;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: center;
   font-size: 25px;
   font-weight: 700;
   line-height: 30px;
   padding: 25px 50px 25px 50px;
   min-width: 35px;
   text-align: center;
+  width: 120px;
+  height: 60px;
 }
