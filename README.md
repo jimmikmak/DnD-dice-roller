@@ -1,6 +1,6 @@
 # DnD-dice-roller
 
-A dice rolling app designed specifically for Dungeons and Dragons, but can be used for a variety of different table-top role-playing games. 
+A dice rolling app designed specifically for Dungeons and Dragons 5th Edition, but can be used for a variety of different table-top role-playing games. 
 
 Features: 
 - Roll one die individually
