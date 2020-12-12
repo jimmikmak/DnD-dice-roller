@@ -1,9 +1,14 @@
 # DnD-dice-roller
 
 A dice rolling app designed specifically for Dungeons and Dragons, but can be used for a variety of different table-top role-playing games. 
-Random rolls for d4; d6; d8; d10; d12; and 20 sided dice. Additional dice may be added to the roll if necessary. 
 
-Designed for players in my current campaign that don't have a set of traditional dice!
+Features: 
+- Roll one die individually
+- View multiple results simultaneously
+- Use multiple die of the same type and calculate totals for those big attack rolls!
+- Select from a d4; d6; d8; d10; d12; or 20 sided-die.
 
-Built using HTML/CSS/Bootstrap/jQuery
+Designed for players in my current campaign that don't have a set of traditional dice...and who are not good at math!!
+
+Built using HTML/CSS/Bootstrap/Javascript/jQuery
 
