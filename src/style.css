@@ -1,11 +1,36 @@
 body {
   font-family: "MedievalSharp", cursive;
   text-align: center;
-  /* background-image: url("");
+  background-color: gray;
+  /* The background obscures a lot of the UI...
+  /* background-image: url("https://wallpaperset.com/w/full/6/8/7/16727.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover; */
+}
+
+h1 {
+  font-size: 80px;
+  color: darkred;
+  margin-bottom: 20px;
+}
+
+span {
+  content: "\2694";
+  font-size: 150px;
+  color: #000;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 20px;
+}
+
+h3 {
+  font-size: 40px;
+  color: darkred;
+  margin: 20px;
 }
 
 .wrapper {
@@ -28,4 +53,90 @@ body {
 
 .aboutImage figure * {
   width: 100%;
+}
+
+button {
+  margin: 20px;
+  color: black;
+  background-color: darkred;
+  font-size: 30px;
+  padding: 10px 30px;
+  border: 2px solid black;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+.qty .count {
+  color: #000;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 0 2px;
+  min-width: 35px;
+  text-align: center;
+}
+.qty .plus {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  width: 30px;
+  height: 30px;
+  font: 30px/1 Arial, sans-serif;
+  text-align: center;
+  border-radius: 50%;
+}
+.qty .minus {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  width: 30px;
+  height: 30px;
+  font: 30px/1 Arial, sans-serif;
+  text-align: center;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+div {
+  text-align: center;
+}
+.minus:hover {
+  background-color: #717fe0;
+}
+.plus:hover {
+  background-color: #717fe0;
+}
+/*Prevent text selection*/
+span {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+input {
+  border: 0;
+  width: 2%;
+}
+nput::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:disabled {
+  background-color: white;
+}
+
+.result {
+  font-size: 100px;
+  color: #000;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 25px 50px 25px 50px;
+  min-width: 35px;
+  text-align: center;
 }

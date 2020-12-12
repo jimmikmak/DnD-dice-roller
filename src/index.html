@@ -15,66 +15,103 @@
 
 <body>
     <div id="container">
-        <h1>DnD Dice Roller</h1>
+        <h1><span>&#9876;</span>DnD Dice Roller<span>&#9876;</span></h1>
         <h2>It's your turn to roll! Good luck!!</h2>
         <div class="page-main wrapper">
             <div class="rpg-dice-column1">
                 <div class="aboutImage">
-                    <h1>d4</h1>
+                    <h3>d4</h3>
                     <img src="https://i.imgur.com/muUWxyg.png" title="source: imgur.com" /></a>
+                </div>
+                <div class="qty mt-5">
+                    <span class="minus bg-dark" id="minus_1">-</span>
+                    <input type="number" id="count_1" class="count" name="qty" value="1">
+                    <span class="plus bg-dark" id="plus_1">+</span>
                 </div>
                 <div id="dice-roller-d4">
                     <div id="randomnumber1" name="randomnumber1"></div>
                     <button type="Roll" id="d4" value="random number">Roll</button>
+                    <div id="d4-generated-number" class="result">RESULT</div>
                 </div>
-                <div id="d4-generated-number">show the result here</div>
+
                 <div class="aboutImage">
-                    <h1>d6</h1>
+                    <h3>d6</h3>
                     <img src="https://i.imgur.com/5RpUQlN.png" title="source: imgur.com" /></a>
+                </div>
+                <div class="qty mt-5">
+                    <span class="minus bg-dark" id="minus_2">-</span>
+                    <input type="number" id="count_2" class="count" name="qty" value="1">
+                    <span class="plus bg-dark" id="plus_2">+</span>
                 </div>
                 <div id="dice-roller-d6">
                     <div id="randomnumber2" name="randomnumber2"></div>
                     <button type="Roll" id="d6" value="random number">Roll</button>
+                    <div id="d6-generated-number" class="result">RESULT</div>
                 </div>
-                <div id="d6-generated-number">show the result here</div>
+
                 <div class="aboutImage">
-                    <h1>d8</h1>
+                    <h3>d8</h3>
                     <img src="https://i.imgur.com/ZdVb1Q9.png" title="source: imgur.com" /></a>
+                </div>
+                <div class="qty mt-5">
+                    <span class="minus bg-dark" id="minus_3">-</span>
+                    <input type="number" id="count_3" class="count" name="qty" value="1">
+                    <span class="plus bg-dark" id="plus_3">+</span>
                 </div>
                 <div id="dice-roller-d8">
                     <div id="randomnumber3" name="randomnumber3"></div>
                     <button type="Roll" id="d8" value="random number">Roll</button>
+                    <div id="d8-generated-number" class="result">RESULT</div>
                 </div>
-                <div id="d8-generated-number">show the result here</div>
+
             </div>
 
             <div class="rpg-dice-column2">
                 <div class="aboutImage">
-                    <h1>d10</h1>
+                    <h3>d10</h3>
                     <img src="https://i.imgur.com/1F1elDk.png" title="source: imgur.com" /></a>
+                    <div class="qty mt-5">
+                        <span class="minus bg-dark" id="minus_4">-</span>
+                        <input type="number" id="count_4" class="count" name="qty" value="1">
+                        <span class="plus bg-dark" id="plus_4">+</span>
+                    </div>
                     <div id="dice-roller-d10">
                         <div id="randomnumber4" name="randomnumber4"></div>
                         <button type="Roll" id="d10" value="random number">Roll</button>
+                        <div id="d10-generated-number" class="result">RESULT</div>
                     </div>
-                    <div id="d10-generated-number">show the result here</div>
+
+
                 </div>
                 <div class="aboutImage">
-                    <h1>d12</h1>
+                    <h3>d12</h3>
                     <img src="https://i.imgur.com/1RQOCoC.png" title="source: imgur.com" /></a>
+                    <div class="qty mt-5">
+                        <span class="minus bg-dark" id="minus_5">-</span>
+                        <input type="number" id="count_5" class="count" name="qty" value="1">
+                        <span class="plus bg-dark" id="plus_5">+</span>
+                    </div>
                     <div id="dice-roller-d12">
                         <div id="randomnumber5" name="randomnumber5"></div>
                         <button type="Roll" id="d12" value="random number">Roll</button>
+                        <div id="d12-generated-number" class="result">RESULT</div>
                     </div>
-                    <div id="d12-generated-number">show the result here</div>
+
                 </div>
                 <div class="aboutImage">
-                    <h1>d20</h1>
+                    <h3>d20</h3>
                     <img src="https://i.imgur.com/udNnLLI.png" title="source: imgur.com" /></a>
+                    <div class="qty mt-5">
+                        <span class="minus bg-dark" id="minus_6">-</span>
+                        <input type="number" id="count_6" class="count" name="qty" value="1">
+                        <span class="plus bg-dark" id="plus_6">+</span>
+                    </div>
                     <div id="dice-roller-d20">
                         <div id="randomnumber6" name="randomnumber6"></div>
                         <button type="Roll" id="d20" value="random number">Roll</button>
+                        <div id="d20-generated-number" class="result">RESULT</div>
                     </div>
-                    <div id="d20-generated-number">show the result here</div>
+
                 </div>
             </div>
         </div>
