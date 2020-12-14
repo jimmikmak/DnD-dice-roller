@@ -1,5 +1,3 @@
-console.log("App is running");
-
 // Random dice rolls on click
 
 // Look at this d4 die, when clicked, do something
@@ -100,8 +98,6 @@ $("#minus_1").on("click", () => {
   const currentValue = $("#count_1").val();
   // Cease the decrement count at 1 die
   $("#count_1").val(parseInt(currentValue) - 1);
-  // Rather than the Ternary Operator,
-  // can I alternatively use an if_else statement here?
   $("#count_1").val(currentValue - 1 < 1 ? 1 : currentValue - 1);
 });
 $("#minus_2").on("click", () => {
