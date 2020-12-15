@@ -119,7 +119,7 @@ button:active {
   background-clip: padding-box;
 }
 .result {
-  font-size: 40px;
+  font-size: 45px;
   color: #000;
   display: inline-block;
   vertical-align: center;
@@ -140,7 +140,7 @@ div {
 .plus:hover {
   background-color: #717fe0;
 }
-/*Prevent text selection*/
+
 span {
   -webkit-user-select: none;
   -moz-user-select: none;

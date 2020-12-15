@@ -70,6 +70,8 @@ $("#dice-roller-d20").on("click", () => {
 // Plus counter inputs
 $("#plus_1").on("click", () => {
   const currentValue = $("#count_1").val();
+  // parseInt() function parses a string argument and
+  // returns an integer
   $("#count_1").val(parseInt(currentValue) + 1);
 });
 $("#plus_2").on("click", () => {
@@ -98,6 +100,11 @@ $("#minus_1").on("click", () => {
   const currentValue = $("#count_1").val();
   // Cease the decrement count at 1 die
   $("#count_1").val(parseInt(currentValue) - 1);
+  /* Ternary Operator for the two choices:
+  // Condition followed by a ?, separated by a :
+  // If the condition is truthy, the first expression is executed
+  // otherwise the second.
+  */
   $("#count_1").val(currentValue - 1 < 1 ? 1 : currentValue - 1);
 });
 $("#minus_2").on("click", () => {
