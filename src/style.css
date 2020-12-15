@@ -158,3 +158,79 @@ input::-webkit-inner-spin-button {
 input:disabled {
   background-color: white;
 }
+
+/**************************
+Size Changes - Smartphone
+**************************/
+
+@media only screen and (min-device-width: 320px) {
+  h1 {
+    font-size: 45px;
+  }
+  span {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+
+/**************************
+Size Changes - Tablet
+**************************/
+
+@media only screen and (min-device-width: 768px) {
+  h1 {
+    font-size: 65px;
+  }
+  span {
+    font-size: 65px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+}
+
+/**************************
+Size Changes - Laptop
+**************************/
+
+@media only screen and (min-device-width: 1024px) {
+  h1 {
+    font-size: 80px;
+  }
+  span {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 45px;
+  }
+}
+
+/**************************
+Size Changes - Desktop
+**************************/
+
+@media only screen and (min-device-width: 1200px) {
+  h1 {
+    font-size: 100px;
+  }
+  span {
+    font-size: 150px;
+  }
+  h2 {
+    font-size: 80px;
+  }
+  h3 {
+    font-size: 60px;
+  }
+}

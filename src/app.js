@@ -9,6 +9,7 @@ $("#dice-roller-d4").on("click", () => {
   // If more than one die is rolled,
   // roll, and calculate the total of the random results
   for (let i = 0; i < numOfRolls; i++) {
+    // Tried Math.round here at first but received decimals
     let result = Math.floor(Math.random() * 4) + 1;
     totalDiceRollSum = totalDiceRollSum + result;
   }
